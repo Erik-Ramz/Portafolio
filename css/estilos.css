@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+html{
+    font-size: 26px;
+    
+}
+
+body{
+    font-size:0px;
+	font-family: "Indie Flower";
+    text-align: justify;
+	margin-top: 76px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Monserrat;
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#cabeza{
+    background-color: goldenrod;
+    width: 100%;
+	position: fixed;
+	top: 0px;
+	text-align: center;
+}
+
+#tama{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 35px;
+    border-radius: 50%;
+}
+
+figure{
+    width: 15%;
+    padding: 5px 0px;
+    display: inline-block;
+    min-width: 200px;/*El tamaño minimo que se puede reducir*/
+}
+section{
+    min-width: 768px;
+}
+.nota, .opcion{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+    #logotipo{
+        width: 75px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    #nombre{
+        font-size: 2rem;
+        vertical-align: middle;
+        display: inline-block;
+        padding-left: 10px;
+        color: rgb(14, 63, 22);
+    }
+
+    #menu-hamb{
+		display: none;
+
+	}
+		#menu-hamb-open,#menu-hamb-close{
+			display: none;
+			text-align: center;
+			border: 1px solid #fff;
+			min-width: 50px;
+			vertical-align: bottom;
+		}
+		#menu-hamb-open img,#menu-hamb-close img{
+			width: 30px;
+			vertical-align: middle;
+		}
+
+    #menu{
+		width: 75%;
+		min-width: 300px;
+		display: inline-block;
+		text-align: right;
+	}
+		.opcion{
+			font-size: 1rem;
+			color: rgb(37, 92, 46);
+			padding: 10px;
+		}
+
+		.opcion:hover{
+			color: rgb(253, 253, 253);
+            background-color: rgb(37, 92, 46);;
+		}
+.espacio{
+    margin-bottom: 25px;
+}
+p{
+    color: black;
+    font-size: 1rem;
+    font-family: "Open Sans";
+    text-align: center;
+}
+ul{
+    color: black;
+    font-size: 1rem;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.contenido{
+    padding-bottom: 2%;
+	text-align: center;
+	min-width: 320px;
+}
+
+
+#quiensoy{
+    background-color: rgb(37, 92, 46);
+    color: white;
+}
+    #quiensoy p{
+        color: white;
+    }
+
+#expaca{
+    background-color: rgb(196, 162, 52);
+}
+    #expaca h2,#expaca ul {
+        margin-bottom: 2%;
+    }
+    
+
+#explab{
+    background-color: rgb(107, 143, 46);
+}
+
+
+#hobbies{
+    background-color: rgb(220, 20, 60);
+}
+    #hobbies h2, #hobbies p{
+        color: white;
+        margin-bottom: 2%;
+    }
+
+#contactos{
+    background-color: rgba(7, 75, 66, 0.5);
+}
+footer{
+	background-color:rgb(1, 51, 51);
+	color: white;
+	font-size: 1rem;;
+	font-size: 20px 10%;
+	text-align: right;
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width: 992px){
+    html{
+        font-size: 19px;   
+    }
+
+    #menu a{
+        font-size: 1.3rem;
+    }
+    body{
+        margin-top: 56px;
+        
+    }
+    #menu-hamb{
+        display: inline-block;
+        width: 60%;
+        min-width: 100px;
+        vertical-align: middle;
+        text-align: right;
+        
+    }
+
+    #menu-hamb-open{
+        display: inline-block;
+    }
+    #menu{
+        height: 0px;
+        width: 90%;
+        overflow: hidden;
+        transition: all 0.4s ease-in-out;
+        
+
+    }
+
+    .opcion{
+        width: 100%;
+        text-align: left;
+    }
+
+    #cabeza:target #menu-hamb-open{
+        display: none;
+    }
+    #cabeza:target #menu-hamb-close{
+        display: inline-block;
+        background-color: rgb(14, 63, 22);
+    }
+    #cabeza:target #menu{
+        height: 275px;
+        
+    }
+    
+    option{
+        width: 65%;
+    }
+
+    #quiensoy img{
+        min-width: 255px;
+        width: 255px;
+        height: 255px;
+
+    }
+}
