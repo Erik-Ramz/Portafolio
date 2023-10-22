@@ -1,11 +1,14 @@
 <?php
 
-$peticion='inicio';
+$peticion='index';
 extract($_REQUEST);
 
 switch($peticion){
-    case 'inicio':
-        require_once 'view/html/inicio.php';
+    case 'index':
+        require_once 'view/html/index.php';
+    break;
+    case 'reservation':
+        require_once 'view/html/reservation.php';
     break;
 }
 ?>
